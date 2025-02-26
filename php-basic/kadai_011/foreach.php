@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content=""/>
+  <title>Document</title>
+</head>
+<body>
+  <?php
+  $items = ['名前' => '玉ねぎ', '値段' => 200, '産地' => '北海道'];
+  foreach ($items as $key => $value) {
+    echo "{$key}:{$value}<br>";
+  }
+  ?>
+</body>
+</html>
